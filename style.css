@@ -1,0 +1,90 @@
+/* Bendras Stilius */
+body {
+    background: #1f191c;
+    color: #555;
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    font-size: 34px;
+    color:#80dde4;
+}
+
+h2 {
+    color: #94d8cf;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+p, ul, ol {
+    font-size: 18px;
+}
+
+.intro {
+    text-align: center;
+    font-style: italic;
+}
+/* Visi paveiksleliai turiremeli ir suapvalintus kampus */
+img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #bdd0df;
+    box-sizing: border-box;
+}
+/* Klase leidzia pasirinkti didesni img ploti ir ji sucentruoja */
+.large {
+    width: 600px; 
+    display: block;
+    margin: 50px auto;
+}
+
+nav {
+    background-color: #3283b9;
+    padding: 12px;
+    text-align: center;
+    border-radius: 8px;
+}
+nav a {
+    display: inline-block;
+    color: #582d2d;
+    margin: 4px 10px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    margin-right: 4px;
+    margin-left: 10px; 
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+a:hover {
+    background: #305fb4;
+    color: #a134bd;
+}
+
+li {
+     margin-bottom: 10px;
+}
+mark { background-color: aliceblue;}
+
+hr {
+    border: 0;
+    border-top:1px solid rgb(4, 30, 78);
+    margin: 24 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+}
